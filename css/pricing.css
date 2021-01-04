@@ -1,0 +1,220 @@
+*{
+box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+    color: #f1f1f8;
+}
+p{
+    font: 400 1rem/1.75rem ;
+}
+h1 , h2 ,h3 ,h4{
+    font: 700 2.75rem/3.5rem;
+}
+.pricing{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color: #212529;
+}
+.contact{
+     background-color: #212529;
+}
+.pricing h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.option{
+    background-color:#262431;
+    padding-top: 50px;
+    
+}
+.option .card{
+    text-align: center;
+    border-color: #f1f1f8;
+    background-color: transparent;
+    margin-bottom: 40px;
+    
+}
+.option .card .card-body{
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+.option .card .card-body .card-title{
+    margin-bottom: 1.625rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.375rem;
+}
+.option .card .buttn{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -1.5rem;
+    
+}
+.option .card .buttn .btn{
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+    border: 1px solid #00c9db;
+    border-radius: 2rem;
+    background-color: #00c9db;
+    color: #ffffff;
+    font: 600 0.875rem/0 sans-serif;
+}
+.option .card .buttn .btn:hover{
+    background-color: #fff;
+    color: #00c9db;
+}
+.option .card .card-body .price .dollar{
+    position: relative;
+    margin-right: 0.25rem;
+    color: #00c9db;
+    font-weight: 600;
+    font-size: 1.5rem;
+    top: -1.125rem;
+    
+}
+.option .card .card-body .price .val{
+    color: #00c9db;
+    font-weight: 700;
+    font-size: 3.25rem;
+}
+.option .card .card-body .period{
+    margin-top: -0.8rem;
+    margin-bottom: 1rem;
+    font: 400 0.875rem/1.625rem sans-serif;
+}
+.option .card .card-body ul{
+    margin-bottom: 10px;
+}
+.option .card .card-body ul li{
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.option .temp{
+    margin-top: 50px;
+}
+.option .temp p{
+    margin-bottom: 9px;
+    color: #f1f1f8;
+}
+.option .temp h4{
+    font: 700 2rem/2.625rem sans-serif;
+    margin-top: 100px;
+    margin-bottom: 40px; 
+}
+.option .plan{
+    margin-top: 40px;
+}
+.option .plan .card{
+    background-color: #423f52;
+    border: none;
+    display: inline-block;
+    max-width: 20rem;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+}
+.option .plan .card .card-body{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.option .plan .card-body .price{
+    position: absolute;
+    top: -1.25rem;
+    right: -1.25rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    background-color: #00c9db;
+    text-align: center; 
+}
+.option .plan .card-body p{
+    text-align: left;
+}
+.option .plan .card-body ul{
+    list-style: square;
+    color: #00c9db;
+}
+.option .plan .card-body ul li{
+    text-align: left; 
+}
+.option .plan .card-body ul li span{
+    color: #f1f1f8;
+    font-weight: 400;
+    line-height: 20px;
+}
+.option .plan .card-body .price .val{
+    font-size: 1.25rem;
+    line-height: 4.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+.option .plan .card-body .btn{
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+    border: 1px solid #00c9db;
+    border-radius: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-color: #00c9db;
+    color: #ffffff;
+    font: 600 0.875rem/0 sans-serif;
+}
+.option .plan .card-body .btn:hover{
+    background-color: #fff;
+    color: #00c9db;
+}
+.option .dark{
+    margin-top: 50px;
+}
+.option .dark .card{
+    border: none;
+}
+.option .dark .card .card-body{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #423f52;
+}
+.option .dark .card .card-body .price{
+    margin-top: -10px;
+}
+.option .dark .card .card-body ul li{
+    text-align: left;
+}
+.option .dark .card .card-body ul li i{
+    color: #00c9db;
+    margin-right: 2px;
+}
+.option .dark .card .bt{
+    width: 100%;
+    text-align: center;
+}
+.option .dark .card .bt .btn{
+    border-radius: 0;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    font-weight: bold;
+    background-color: #00c9db;
+}
+.option .dark .card .bt .btn:hover{
+    color: #00c9db;
+    background-color: transparent;
+    border-color: #00c9db;
+}
+.option .temp button{
+    display: inline-block;
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+    border: 1px solid #00c9db;
+    border-radius: 2rem;
+    background-color: #00c9db;
+    color: #ffffff;
+    font: 600 0.875rem/0 sans-serif;
+    transition: all 0.2s;
+    margin-bottom: 50px;
+}
+.option .temp button:hover{
+    background-color: transparent;
+    border-color: #00c9db;
+}

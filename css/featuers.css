@@ -1,0 +1,112 @@
+*{
+box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+    color: #f1f1f8;
+}
+p{
+    font: 400 1rem/1.75rem ;
+}
+h1 , h2 ,h3 ,h4{
+    font: 700 2.75rem/3.5rem;
+}
+.features{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color: #212529;
+}
+.contact{
+     background-color: #212529;
+}
+.features h1{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.features .images img{
+    width: 100%;
+}
+.second{
+    background-color:#262431;
+     padding-top: 50px;
+    padding-bottom: 50px;
+}
+.second .grow{
+    background-color: #423f52;
+    padding: 20px;
+}
+.second .list{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.second .list .row{
+    margin-bottom: 30px;
+}
+.second .list i{
+    padding: 20px 20px;
+    font-size: 33px;
+    background-color:#17a2b8;
+    border-radius: 50%;
+}
+.second .list h4 ,.list p{
+    margin-left: 30px;
+}
+@media (max-width: 768px){
+    .second .list h4 ,.list p{
+    margin-left: 50px;
+}
+}
+.second .land{
+    margin-top: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.second .image img{
+    width: 100%;
+}
+.second .improve{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.second p{
+    line-height: 32px
+}
+.second .card{
+    background-color:#262431;
+    border: none;
+    list-style: square;
+    color: #17a2b8
+}
+.second .card li{
+    margin-bottom: 2px;
+}
+.second .card li p{
+    display: inline;
+    color: #f1f1f8;
+}
+.second .card li span{
+    color: #fff;
+    font-weight: bold
+}
+.second button{
+    padding: 20px 30px;
+    border: 1px solid #00c9db;
+    border-radius: 2rem;
+    background-color: #00c9db;
+    color: #ffffff;
+    font: 600 0.875rem/0 sans-serif;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+}
+.second button:hover{
+    background-color: transparent;
+}
+
+
+
+
+
+
+

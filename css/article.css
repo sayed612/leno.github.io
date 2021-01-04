@@ -1,0 +1,123 @@
+*{
+box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+    color: #f1f1f8;
+}
+p{
+    font: 400 1rem/1.75rem ;
+}
+h1 , h2 ,h3 ,h4{
+    font: 700 2.75rem/3.5rem;
+}
+/***details**/
+.details{
+    background-color:#212529; 
+    padding-top: 90px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+.details h1{
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+.details .image img{
+    width: 100%;
+}
+.text{
+    
+     background-color: #262431;
+     padding-top: 50px;
+}
+.text .pr{
+    margin-left: 5%;
+}
+.text .pr .one{
+    margin-top: 2rem;
+}
+.text p{
+    line-height: 28px;
+    margin-bottom: 3rem;
+}
+.text h3{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.text .boxs{
+    margin-top: 50px;
+    padding: 10px;
+}
+.text .boxs span{
+    background-color:#17a2b8;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 1px;
+}
+.text .feats{
+    
+}
+.text .feats .element{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.text .feats .photo img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.text .visitor .visit{
+    background-color: #423f52;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    padding: 30px;
+}
+.text .visitor .visit h2{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.text .visitor .visit p{
+    margin-bottom: 5px;
+}
+.text .together{
+    margin-top: 50px;
+}
+.text .together ul{
+    color: #17a2b8;
+    list-style: square
+}
+.text .together ul li{
+    margin-bottom: 10px;
+    
+}
+.text .together ul li span{
+    color: #fff;
+    font-weight: bold;
+}
+.text .together ul li p{
+    display: inline-block;
+    margin-bottom: 1px;
+    font-weight: 200;
+    color: #f1f1f8;
+}
+.text .together button{
+    padding: 20px 30px;
+    border: 1px solid #00c9db;
+    border-radius: 2rem;
+    background-color: #00c9db;
+    color: #ffffff;
+    font: 600 0.875rem/0 sans-serif;
+    transition: all 0.2s;
+    margin-bottom: 20px;
+}
+.text .together button:hover{
+    background-color: transparent;
+}
+.contact{
+    margin-top: -30px;
+    background-color: #212529
+}
+
+
