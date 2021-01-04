@@ -74,6 +74,7 @@ body{
         max-height: 50px;
         align-content: center;
         position: fixed;
+        width: 100%;
     }
     .navbar-collapse{
         background-color: #34495e; 
