@@ -6,9 +6,8 @@ body{
 }
 
 /****nav***/
-.container{
-    max-width: 1140px
-}
+
+.navbar{overflow: hidden}
 .nav-item{
     margin-left: 20px; 
     text-align: center;
@@ -68,11 +67,8 @@ body{
     margin: auto;
 }
 @media (max-width: 500px){
-    .navbar{
-        width: 500px
-    }
-    .navbar .container{
-        width: 400px
+    .container{
+        width: 80%;
     }
 }
 @media (max-width: 991.98px){
