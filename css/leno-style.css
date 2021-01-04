@@ -67,6 +67,14 @@ body{
     width: 90%;
     margin: auto;
 }
+@media (max-width: 500px){
+    .navbar{
+        width: 500px
+    }
+    .navbar .container{
+        width: 300px
+    }
+}
 @media (max-width: 991.98px){
    
     .navbar{
@@ -74,7 +82,10 @@ body{
         max-height: 50px;
         align-content: center;
         position: fixed;
-        width: 100%;
+        
+    }
+    .navbar .x{
+        
     }
     .navbar-collapse{
         background-color: #34495e; 
@@ -83,7 +94,7 @@ body{
         left: 0;
     }
     .dropdown-menu{
-     width: 50%;
+        width: 50%;
         text-align: center;
         margin: auto;
     }
@@ -94,7 +105,8 @@ body{
     }
     .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255, 0);
-     border-color: rgba(255, 255, 255, 0.1); 
+     border-color: rgba(255, 255, 255, 0.1);
+       
     }
      .header{
         text-align: center;
