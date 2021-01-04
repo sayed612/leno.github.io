@@ -6,8 +6,12 @@ body{
 }
 
 /****nav***/
-
-.navbar{overflow: hidden}
+.container{
+    max-width: 1140px
+}
+.navbar .container{
+    justify-content: space-around
+}
 .nav-item{
     margin-left: 20px; 
     text-align: center;
@@ -67,10 +71,7 @@ body{
     margin: auto;
 }
 @media (max-width: 500px){
-    .container{
-        width: 80%;
-        margin-left: 0;
-    }
+    
 }
 @media (max-width: 991.98px){
    
@@ -78,12 +79,12 @@ body{
         background-color: #34495e;
         max-height: 50px;
         align-content: center;
-        position: fixed;
         
-    }
-    .navbar .x{
-        
-    }
+        left: 0;
+        top: 0;
+        right: 0
+    }    
+    
     .navbar-collapse{
         background-color: #34495e; 
         position: absolute;
